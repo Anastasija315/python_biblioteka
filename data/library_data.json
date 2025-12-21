@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "nosaukums": "1984",
+        "autors": "Džordžs Orvels",
+        "cena": 9.99,
+        "pieejamas": 5,
+        "izsniegtas": 0
+    },
+    {
+        "nosaukums": "Mazais Princis",
+        "autors": "Antuāns de Sent-Ekziperī",
+        "cena": 13.99,
+        "pieejamas": 15,
+        "izsniegtas": 0
+    }
+]
