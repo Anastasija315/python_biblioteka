@@ -1,1 +1,30 @@
+from book_manager import add_or_update_book, show_all_books, top_5_popular, top_5_expensive
 
+def main():
+    while True:
+        print("\n *** Laipni lūgti digitālajā bibliotēkā! ***")
+        print("Ievadiet skaitli no 1 līdz 5, lai izvēlēties darbību:")
+        print("1 - Pievienot vai atjaunināt grāmatu")
+        print("2 - Apskatīt visas grāmatas")
+        print("3 - Top 5 visvairāk izsniegtās grāmatas")
+        print("4 - Top 5 dārgākās grāmatas")
+        print("5 - Iziet")
+
+        izvele = input("Jūsu izvēle: ")
+
+        if izvele == "1":
+            add_or_update_book()
+        elif izvele == "2":
+            show_all_books()
+        elif izvele == "3":
+            top_5_popular()
+        elif izvele == "4":
+            top_5_expensive()
+        elif izvele == "5":
+            print("Uz redzēšanos!")
+            break
+        else:
+            print("Kļūda! Ievadiet skaitli no 1 līdz 5")
+
+if __name__ == "__main__":
+    main()
